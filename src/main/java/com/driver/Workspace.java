@@ -44,4 +44,8 @@ public class Workspace extends Gmail{
 
         return maxMeetings;
     }
+
+    public void setCalendar(ArrayList<Meeting> calendar) {
+        this.calendar = calendar;
+    }
 }

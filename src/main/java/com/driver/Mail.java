@@ -26,4 +26,16 @@ public class Mail {
     public String getMessage() {
         return message;
     }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public void setSender(String sender) {
+        this.sender = sender;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 }
